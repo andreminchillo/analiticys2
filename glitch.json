@@ -1,0 +1,22 @@
+{
+  "install": "cd backend && pip install -r requirements.txt",
+  "start": "cd backend && python app.py",
+  "watch": {
+    "ignore": [
+      "\\.pyc$",
+      "^logs/",
+      "^temp/"
+    ],
+    "install": {
+      "include": [
+        "^backend/requirements\\.txt$"
+      ]
+    },
+    "restart": {
+      "include": [
+        "^backend/.*\\.py$"
+      ]
+    }
+  }
+}
+

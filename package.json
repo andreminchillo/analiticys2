@@ -1,0 +1,23 @@
+{
+  "name": "vvn-ai-analyzer",
+  "version": "1.0.0",
+  "description": "Análise de gravações de vendas VVN com IA",
+  "main": "backend/app.py",
+  "scripts": {
+    "start": "cd backend && python app.py",
+    "install": "cd backend && pip install -r requirements.txt"
+  },
+  "keywords": [
+    "vvn",
+    "vendas",
+    "ia",
+    "transcricao",
+    "analise"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
